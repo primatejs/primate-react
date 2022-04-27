@@ -10,7 +10,11 @@ const plugins = [["replace-import-extension", {"extMapping": {".jsx": ".js"}}]];
 const ending = ".jsx";
 
 const {"paths": {"components": path}} = app.conf;
-const jsx_path = `${app.conf.paths.public}/jsx/`;
+const _public = app.conf.paths.public;
+const jsx_path = `${_public}/jsx/`;
+if (!await File.exists(_public)) {
+  await File.create(_public);
+}
 if (!await File.exists(jsx_path)) {
   await File.create(jsx_path);
 }
