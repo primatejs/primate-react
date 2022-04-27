@@ -10,10 +10,10 @@
     "@babel/core": "^7.17.9",
     "babel-plugin-replace-import-extension": "^1.1.2",
     "@babel/preset-react": "^7.16.7",
-    "primate": "^0.8.0",
+    "primate": "^0.8.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "runtime-compat": "^0.1.5"
+    "runtime-compat": "^0.1.6"
   },
   "type": "module",
   "main": "./exports.js"
