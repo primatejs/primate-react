@@ -1,0 +1,20 @@
+{
+  "name": "primate-react",
+  "version": "0.1.0",
+  "author": "Primate core team <core@primatejs.com>",
+  "homepage": "https://primatejs.com",
+  "bugs": "https://github.com/primatejs/primate-react/issues",
+  "repository": "https://github.com/primatejs/primate-react",
+  "description": "Primate React client",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "babel-plugin-replace-import-extension": "^1.1.2",
+    "@babel/preset-react": "^7.16.7",
+    "primate": "^0.8.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "runtime-compat": "^0.1.5"
+  },
+  "type": "module",
+  "main": "./exports.js"
+}
