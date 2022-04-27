@@ -1,4 +1,4 @@
-# Primate React client
+# Primate React handler
 
 A Primate React handler that can serve as an alternative to the native HTML
 handler.
