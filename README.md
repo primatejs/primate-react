@@ -11,7 +11,7 @@ npm install primate-react
 
 ## Using
 
-Create a JSX component in `components`, e.g. `PostIndex.jsx`.
+Create a [JSX][jsx] component in `components`, e.g. `PostIndex.jsx`.
 
 ```jsx
 import React from "react";
@@ -57,3 +57,4 @@ BSD-3-Clause
 
 [primate-app]: https://github.com/primatejs/primate-app
 [primate-vue]: https://github.com/primatejs/primate-vue
+[jsx]: https://reactjs.org/docs/jsx-in-depth.html
