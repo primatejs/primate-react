@@ -1,4 +1,4 @@
-# Primate React handler
+# React for Primate
 
 A Primate React handler that can serve as an alternative to the native HTML
 handler.
@@ -47,8 +47,13 @@ router.get("/react/posts", () => react`<PostIndex posts="${Post.find()}" />`);
 [Primate app][primate-app] includes examples for routes and components that are
 1:1 aligned with the HTML examples.
 
+## Alternatives
+
+See [primate-vue] for the same functionality in Vue.
+
 ## License
 
 BSD-3-Clause
 
 [primate-app]: https://github.com/primatejs/primate-app
+[primate-vue]: https://github.com/primatejs/primate-vue
