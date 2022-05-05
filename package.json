@@ -7,7 +7,7 @@
   "repository": "https://github.com/primatejs/primate-react",
   "description": "Primate React client",
   "dependencies": {
-    "@babel/core": "^7.17.9",
+    "@babel/core": "^7.17.10",
     "babel-plugin-replace-import-extension": "^1.1.2",
     "@babel/preset-react": "^7.16.7",
     "primate": "^0.8.1",
