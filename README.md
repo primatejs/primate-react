@@ -35,7 +35,7 @@ export default class extends React.Component {
 Create a route using the handler.
 
 ```js
-import {router, redirect, defined} from "primate";
+import {router} from "primate";
 import react from "primate-react";
 import Post from "../domains/Post.js";
 
